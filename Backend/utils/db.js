@@ -13,7 +13,7 @@ const dbConnection = async() =>{
 
     }catch(error){
         console.log(error);
-        setTimeout(dbConnection, 5000)
+        setTimeout(dbConnection, 5000);
     }
 }
 
